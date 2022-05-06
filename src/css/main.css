@@ -68,7 +68,7 @@ body {
 .layout_inner {
   max-width: 960px;
   margin: 0 auto;
-   padding:30px 10px;
+   padding:30px 20px;
  background:grey;
 }
 
@@ -90,18 +90,15 @@ body {
 {
   display: flex;
   flex-wrap: wrap;
-   width:960px;text-align:center;
-
-
+   width:960px;
+   justify-content:space-between ;
 }
 
 
 
-.reports article{
-  margin-left:30px;
-}
 .reports_title a {
-  color: #2A3035;
+  color: #ffffff;
+  font-size:16px;line-height: 0px;
 } 
 /* Responsive layout - makes a two column-layout instead of three columns */
 
